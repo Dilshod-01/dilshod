@@ -1,0 +1,257 @@
+/* header{
+    width: 100%;
+    height: 90px;
+    font-size: 10px;
+} */
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: red; 
+    border-radius: 8px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #b30000; 
+  }
+
+.row{
+   width: 100%; 
+}
+.column_1{
+    height: 100px;
+    display: inline-block;
+}
+.you_tube_img{
+    width: 90px;
+    height: 80px;
+    margin-left: 2%;
+}
+.column_2{
+    height: 100px;
+    
+}
+#input_search{
+    margin-top: 3%;
+    width: 600px;
+}
+.microphone_1{
+    /* margin-left: 91%; */
+    margin-top: -8%;
+    font-size: 25px;
+    color: black;
+    width: 30px;
+}
+.column_3{
+    height: 100px;
+}
+.head_icons{
+    width: 400px;
+    height: 90px;
+    margin-top: 4%;
+    font-size: 25px;
+    float: right;
+}
+.profile_photo_1{
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    border: black 1px solid;
+    margin-left: 48%;
+    margin-top: -38%;
+}
+.button_profile:hover + .profile_photo_1{
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    display: none;
+    transition: 1s;
+}
+.button_profile{
+    display: block;
+    margin-left: 60%;
+    margin-top: -20%;
+}
+.burger{
+    font-size: 25px;
+    color: black;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+.youtube_icons{
+    width: 180px;
+    height: 590px;
+    font-size: 18px; 
+    overflow-y: scroll;
+    display: block;
+}
+.youtube_icons::-webkit-scrollbar {
+    width: 8px;
+}
+.youtube_icons::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+}
+.youtube_icons::-webkit-scrollbar-thumb {
+    background: rgb(54, 52, 52); 
+    border-radius: 8px;
+}
+.youtube_icons ::-webkit-scrollbar-thumb:hover {
+    background: #161616; 
+}
+.burger:hover + .youtube_icons{
+    font-size: 12px;
+    width: 500px;
+    height: 590px;
+    overflow: scroll black !important;
+    display: none;
+}
+li{
+    display: inline-block;
+}
+.part1_icons{
+    margin-left: -5%;
+    margin-top: 10%;
+    border-bottom: black 1px;
+}
+.buttons_primary{
+    
+    margin-left: 22%;
+    display: inline-block;
+    width: 900px;
+}
+.btn_menu{
+    border-radius: 25px!important;
+    margin-left: 0.5%;
+}
+.buttons{
+    margin-top: -45%;
+}
+.youtube_videos{
+    width: 1100px;
+    height: 300px;
+    margin-left: 16%;
+    margin-top: 2%;
+}
+.youtube_1_video_post{
+    width: 270px;
+    height: 250px; 
+    display: inline-block;
+}
+.video_1{
+    width: 260px !important;
+    height: 150px;
+    margin-top: -0%;
+}
+.round_profile_photos{
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+}
+.Video_title{
+    margin-top: -13%;
+    margin-left: 20%;
+}
+.title_2{
+    margin-left: 20%;
+    opacity: 70%;
+    font-size: 15px;
+}
+.youtube_videos_2rov{
+    width: 1100px;
+    height: 300px;
+    margin-left: 16%;
+    margin-top: -2%;
+}
+.footer_end{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(29, 28, 28);
+    margin-top: -1%;
+}
+.foot_rov1{
+    width: 200px;
+    height: 300px;
+    margin-top: -35%;
+    margin-left: 5%;
+    color: white;
+    font-size: 25px;
+}
+.foot_rov2{
+    width: 200px;
+    height: 300px;
+    margin-top: -22.5%;
+    margin-left: 22%;
+    color: white;
+    font-size: 25px;
+}
+.links_foot{
+    color: rgb(146, 145, 145);
+    opacity: 50% !important;
+}
+.foot_rov3{
+    width: 200px;
+    height: 300px;
+    margin-top: -22.5%;
+    margin-left: 45%;
+    color: white;
+    font-size: 25px;
+}
+.foot_rov4{
+    width: 270px;
+    height: 300px;
+    margin-top: -22.5%;
+    margin-left: 68%;
+    color: white;
+    font-size: 25px;
+}
+.ender_div{
+    width: 100%;
+    height: 90px;
+    margin-top: 7%;
+    display: inline-block;
+}
+.tv{
+    width: 100px;
+    height: 50px;
+    margin-left: 5%;
+}
+.links_foot_2{
+    color: rgb(146, 145, 145);
+    opacity: 50% !important;
+    margin-left: 25%;
+    font-size: 18px;
+}
+.end_p{
+    margin-left: 18%;
+    margin-top: -3%;
+}
+.dropdown{
+    margin-left: 85%;
+    margin-top: -2%;
+    background: transparent;
+    
+}
+.btn-secondary{
+    background-color: rgb(29, 28, 28);
+}
+.connect_tvit{
+    color: blanchedalmond;
+    width: 100px;
+    height: 90px;
+    font-size: 25px;
+    margin-top: -42%;
+    margin-left: 5%;
+}
+#dropdownMenu2{
+    background: transparent;
+}
